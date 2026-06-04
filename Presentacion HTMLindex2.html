@@ -1,0 +1,149 @@
+<!DOCTYPE html>​
+
+<html lang="es">​
+
+<head>​
+
+    <meta charset="UTF-8">​
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">​
+
+    <title>Mi primera práctica</title>​
+
+</head>​
+
+<body> ​
+    <header>
+        <h1 id="home">
+        </h1>
+
+        <h1>Mi presentación</h1>
+
+        <h2>Naiara</h2>
+        <figure>
+            <img src="D:\CURSO HTML\beautiful-cartoon-woman-portrait.jpg" alt="retrato" width="90px" height="120px">
+
+        </figure>
+    </header>
+
+    <nav>
+        <ul>
+
+            <li>
+                <a href="#sobre mi">Sobre mi</a>
+            </li>
+            <li>
+                <a href="#informacion">Información</a>
+            </li>
+            <li>
+                <a href="#contacto">Contacto</a>
+            </li>
+            <li>
+                <a href="#envia tus dudas">Envia tus dudas</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="sobre mi">
+        <h2>Sobre mi</h2>
+
+        <p>Mi nombre es Naiara, tengo <strong>25 años</strong> y soy de Cáceres. Soy Tatuadora pero me encanta la
+            informatica</p>
+    </main>
+
+    <section id="informacion">
+        <h2>Información</h2>
+
+        <p>Desde hace 2 años casi 3 soy tatuadora de varios estilos, como los siguientes:</p>
+        <ul>
+            <li><strong>Fine Line</strong></li>
+            <li><strong>Anime</strong></li>
+            <li><strong>Blackwork</strong></li>
+            <li><strong>Neotradicional</strong></li>
+
+        </ul>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <ul>
+
+            <li>
+
+                <a href="mailto:naiaraprietob@gmail.com" title="mandar correo" title="_blank">Correo Electrónico</a>
+            </li>
+            <li><a href="https://www.instagram.com/tattooed_eyess/" title="Visitar instagram"
+                    target="_blank">Instagram</a></li>
+        </ul>
+    </section>
+
+    </li>
+
+    <form action="enviar" method="post">
+        <fieldset id="envia tus dudas">
+
+            <legend>Contacto</legend>
+            <div>
+                <label for="nombre">Nombre completo <span aria-hidden="true"></span></label>
+
+                <input type="text" id="nombre" name="nombre" required autocomplete="name"
+                    placeholder="Ejemplo María Ruiz">
+            </div>
+
+            <div>
+                <label for="email">Correo electrónico<span aria-hidden="true"></span></label>
+
+                <input type="email" id="email" name="email" required autocomplete="email"
+                    placeholder="correo@dominio.es">
+            </div>
+
+            <div>
+                <label for="mensaje">Mensaje</label>
+
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aqui"></textarea>
+
+
+            </div>
+
+
+            <div>
+                <label for="tiene tatuajes">¿Tienes algún tatuaje?</label>
+                <select id="tatuaje" name="tatuaje">
+                    <option value="">Selecciona una opción</option>
+                    <option value="si">Si</option>
+                    <option value="no">No</option>
+                </select>
+
+
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Estilos Favoritos</legend>
+            <div>
+                <input type="checkbox" id="linea fina" name="tipo" value="linea fina">
+                <label for="linea finda">Linea Fina</label>
+            </div>
+            <div>
+                <input type="checkbox" id="tradicional" name="tipo" value="tradicional">
+                <label for="tradicional">Tradicional</label>
+            </div>
+            <div>
+                <input type="checkbox" id="anime" name="tipo" value="anime">
+                <label for="anime">Anime</label>
+            </div>
+            <button type="submit">Enviar formulario</button>
+        </fieldset>
+
+
+
+
+
+
+    </form>
+    <a href="#home">Volver arriba</a>
+</body>​
+
+
+
+
+</html>​
