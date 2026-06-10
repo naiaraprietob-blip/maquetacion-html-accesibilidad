@@ -3,22 +3,24 @@ body {
  font-family: 'Arial', sans-serif;
 }
 h1 {
- color: darkblue;
+ color: white;
  text-align: center;
 }
 h2 {
- color: black;
+ color: white;
  text-align: center;
 }
 .section {
- background-color: yellow;
+ background-color: #111;
  margin: 20px;
  padding: 20px;
  border-radius: 10px;
 }
 nav {
     background: #111;
-    padding: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
 }
 
 nav ul {
