@@ -1,158 +1,268 @@
-<!DOCTYPE html>​
+<!DOCTYPE html>
+<html lang="es">
 
-<html lang="es">​
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Tattooed Eyess Ink Studio - Naiara, tatuadora en Cáceres. Estilos: Fine Line, Anime, Blackwork y Neotradicional.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Tattooed Eyess Ink Studio · Naiara · Tatuadora en Cáceres</title>
+</head>
 
-<head>​
+<body id="home">
 
 
-    <meta charset="UTF-8">​
+    <a class="skip-link" href="#main">Saltar al contenido principal</a>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">​
-    <link rel="stylesheet" href="style.css">​
+    >
+    <header class="hero" role="banner">
+        <div class="hero-inner">
+            <p class="eyebrow" aria-hidden="true">— Ink Studio · Cáceres —</p>
+            <h1 class="studio-name">Tattooed Eyess<span>Ink Studio</span></h1>
 
-    <title>Mi primera práctica</title>​
+            <figure class="logo">
 
-</head>​
+                <img src="logo tattooed eyess.jpeg"
+                    alt="Logo de Tattooed Eyess Ink Studio: un ojo tatuado con una rosa en el iris">
+            </figure>
 
-<body> ​
-
-
-    <header>
-        <h1 id="home">
-        </h1>
-
-        <h1 class="section">
-            Tattooed Eyess Ink Studio</h1>
-
-        <h2 id="name">
-
-            Naiara
-
-        </h2>
-
-        <figure class="centrar_imagen">
-            <img src="D:\CURSO HTML\logo tattooed eyess.jpeg" alt="logo estudio" width="120px" height="120px"
-                border="7px solid black">
-
-        </figure>
+            <h2 class="artist-name">Naiara</h2>
+            <p class="tagline">Tatuadora · Fine Line · Anime · Blackwork · Neotradicional</p>
+        </div>
     </header>
 
-    <nav>
+    
+    <nav class="main-nav" aria-label="Navegación principal">
         <ul>
-
-            <li>
-                <a href="#sobre mi">Sobre mi</a>
-            </li>
-            <li>
-                <a href="#informacion">Información</a>
-            </li>
-            <li>
-                <a href="#contacto">Contacto</a>
-            </li>
-            <li>
-                <a href="#envia tus dudas">Envia tus dudas</a>
-            </li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#informacion">Información</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#envia-tus-dudas">Reservar</a></li>
         </ul>
     </nav>
 
-    <main id="sobre mi" class="seccion">
-        <h2>Sobre mi</h2>
-        <p class="texto">Mi nombre es Naiara, tengo <strong>25 años</strong> y soy de Cáceres. Soy Tatuadora pero me
-            encanta la
-            informatica</p>
-    </main>
 
-    <section id="informacion" class="seccion">
-        <h2>Información</h2>
+    <div class="layout">
 
-        <p class="texto">Desde hace 2 años casi 3 soy tatuadora de varios estilos, como los siguientes:</p>
-        <ul>
-            <li><strong>Fine Line</strong></li>
-            <li><strong>Anime</strong></li>
-            <li><strong>Blackwork</strong></li>
-            <li><strong>Neotradicional</strong></li>
+        <main id="main" role="main">
 
-        </ul>
-    </section>
-    <section id="contacto" class="seccion">
-        <h2>Contacto</h2>
-        <ul>
+            <section id="sobre-mi" class="seccion" aria-labelledby="titulo-sobre-mi">
+                <h2 id="titulo-sobre-mi" class="section-title">Sobre mí</h2>
+                <div class="divider" aria-hidden="true"><span></span></div>
+                <p class="texto">
+                    Mi nombre es Naiara, tengo <strong>25 años</strong> y soy de Cáceres.
+                    Soy tatuadora, pero también me apasiona la informática. Mezclo lo
+                    técnico y lo artístico para crear piezas únicas hechas a tu medida.
+                </p>
+            </section>
 
-            <li>
+            <section id="informacion" class="seccion" aria-labelledby="titulo-info">
+                <h2 id="titulo-info" class="section-title">Información</h2>
+                <div class="divider" aria-hidden="true"><span></span></div>
+                <p class="texto">
+                    Desde hace casi 3 años trabajo en varios estilos. Estos son los que más me representan:
+                </p>
+                <ul class="estilos">
+                    <li><span aria-hidden="true">01</span><strong>Fine Line</strong><em>Líneas finas y delicadas</em>
+                    </li>
+                    <li><span aria-hidden="true">02</span><strong>Anime</strong><em>Personajes e ilustración
+                            japonesa</em></li>
+                    <li><span aria-hidden="true">03</span><strong>Blackwork</strong><em>Negro sólido y contrastes</em>
+                    </li>
+                    <li><span aria-hidden="true">04</span><strong>Neotradicional</strong><em>Colores vivos y contornos
+                            marcados</em></li>
+                </ul>
+            </section>
 
-                <a href="mailto:naiaraprietob@gmail.com" title="mandar correo" title="_blank">Correo Electrónico</a>
-            </li>
-            <li><a href="https://www.instagram.com/tattooed_eyess/" title="Visitar instagram"
-                    target="_blank">Instagram</a></li>
-        </ul>
-    </section>
+            <!-- GALERÍA: reemplaza los src por las rutas de tus fotos (ej: trabajos/tattoo1.jpg) -->
+            <section id="galeria" class="seccion" aria-labelledby="titulo-galeria">
+                <h2 id="titulo-galeria" class="section-title">Galería</h2>
+                <div class="divider" aria-hidden="true"><span></span></div>
+                <p class="texto">Una selección de mis trabajos recientes.</p>
 
-    </li>
+                <ul class="galeria-grid" role="list">
+                    <li>
+                        <figure>
+                            <img src="tattoo-goku.jpg"
+                                alt="Tatuaje blackwork de Goku Super Saiyan dentro de un marco triangular, situado en el antebrazo"
+                                loading="lazy">
+                            <figcaption>Goku · Blackwork Anime</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="tattoo-zelda.jpg"
+                                alt="Tatuaje fine line de la Princesa Zelda con la Trifuerza, flores y el hada Navi, en el brazo"
+                                loading="lazy">
+                            <figcaption>Zelda · Anime</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="tattoo-peonias.jpg"
+                                alt="Tatuaje fine line de peonías y hojas distribuidas en la espalda, sobre el hombro y la zona lumbar"
+                                loading="lazy">
+                            <figcaption>Peonías · Fine Line</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="tattoo-tigre.jpg"
+                                alt="Tatuaje blackwork de cabeza de tigre con alas de mariposa rugiendo, en la parte posterior de la pierna"
+                                loading="lazy">
+                            <figcaption>Tigre Mariposa · Blackwork</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="tattoo-leopardo.jpg"
+                                alt="Tatuaje fine line de un leopardo agazapado en movimiento, situado en el omóplato"
+                                loading="lazy">
+                            <figcaption>Leopardo · Fine Line</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="tattoo-gato.jpg"
+                                alt="Tatuaje blackwork de un gato persa peludo tumbado dentro de un círculo con líneas estilo grabado, en el antebrazo"
+                                loading="lazy">
+                            <figcaption>Gato · Blackwork</figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
 
-    <form action="enviar" method="post" class="formulario">
-        <fieldset id="envia tus dudas">
+            <section id="contacto" class="seccion" aria-labelledby="titulo-contacto">
+                <h2 id="titulo-contacto" class="section-title">Contacto</h2>
+                <div class="divider" aria-hidden="true"><span></span></div>
+                <ul class="contacto-list">
+                    <li>
+                        <a href="mailto:naiaraprietob@gmail.com" aria-label="Enviar correo a naiaraprietob@gmail.com">
+                            <span>Correo</span>naiaraprietob@gmail.com
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/tattooed_eyess/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Visitar perfil de Instagram tattooed_eyess (se abre en nueva pestaña)">
+                            <span>Instagram</span>@tattooed_eyess
+                        </a>
+                    </li>
+                </ul>
+            </section>
 
-            <legend>Contacto</legend>
-            <div>
-                <label for="nombre">Nombre completo <span aria-hidden="true"></span></label>
+            <form action="enviar" method="post" class="formulario" aria-labelledby="titulo-formulario" novalidate>
+                <h2 id="titulo-formulario" class="visually-hidden">Formulario de reserva</h2>
 
-                <input type="text" id="nombre" name="nombre" required autocomplete="name"
-                    placeholder="Ejemplo María Ruiz">
+                <fieldset id="envia-tus-dudas">
+                    <legend>Reserva tu cita</legend>
+
+                    <p class="aviso-obligatorio">Los campos marcados con <span aria-hidden="true">*</span> son
+                        obligatorios.</p>
+
+                    <div class="campo">
+                        <label for="nombre">Nombre completo <span class="req" aria-hidden="true">*</span></label>
+                        <input type="text" id="nombre" name="nombre" required autocomplete="name"
+                            placeholder="Ejemplo: María Ruiz" aria-required="true">
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">Correo electrónico <span class="req" aria-hidden="true">*</span></label>
+                        <input type="email" id="email" name="email" required autocomplete="email"
+                            placeholder="correo@dominio.es" aria-required="true" aria-describedby="email-help">
+                        <small id="email-help" class="ayuda">Te contestaré en menos de 48h.</small>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensaje">Cuéntame tu idea</label>
+                        <textarea id="mensaje" name="mensaje" rows="5"
+                            placeholder="Estilo, tamaño aproximado, zona del cuerpo, referencias..."></textarea>
+                    </div>
+
+                    <div class="campo">
+                        <label for="tatuaje">¿Tienes algún tatuaje?</label>
+                        <select id="tatuaje" name="tatuaje">
+                            <option value="">Selecciona una opción</option>
+                            <option value="si">Sí</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <fieldset class="estilos-favoritos">
+                    <legend>Estilos favoritos</legend>
+                    <div class="checks" role="group" aria-label="Selecciona uno o varios estilos">
+                        <div>
+                            <input type="checkbox" id="linea-fina" name="tipo" value="linea fina">
+                            <label for="linea-fina">Línea fina</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="tradicional" name="tipo" value="tradicional">
+                            <label for="tradicional">Tradicional</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="anime" name="tipo" value="anime">
+                            <label for="anime">Anime</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="blackwork" name="tipo" value="blackwork">
+                            <label for="blackwork">Blackwork</label>
+                        </div>
+                    </div>
+                    <button type="submit">Enviar reserva</button>
+                </fieldset>
+            </form>
+
+        </main>
+
+
+        <aside class="sidebar" aria-label="Información del estudio">
+
+            <div class="sidebar-card">
+                <h3 class="sidebar-title">Horario</h3>
+                <ul class="horario">
+                    <li><span>Lunes — Viernes</span><time>18:30 - 21:00</time></li>
+                    <li><span>Sábado</span><time>10:00 — 13:00</time></li>
+                    <li><span>Domingo</span><time>Cerrado</time></li>
+                </ul>
             </div>
 
-            <div>
-                <label for="email">Correo electrónico<span aria-hidden="true"></span></label>
+            <div class="sidebar-card">
+                <h3 class="sidebar-title">Ubicación</h3>
+                <address>
+                    10195 Cáceres, Extremadura<br>
 
-                <input type="email" id="email" name="email" required autocomplete="email"
-                    placeholder="correo@dominio.es">
+                </address>
             </div>
 
-            <div>
-                <label for="mensaje">Mensaje</label>
-
-                <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aqui"></textarea>
-
-
+            <div class="sidebar-card">
+                <h3 class="sidebar-title">Próxima disponibilidad</h3>
+                <p class="disponibilidad"><strong>Julio 2026</strong><br>Reserva con antelación.</p>
             </div>
 
-
-            <div>
-                <label for="tiene_tatuajes">¿Tienes algún tatuaje?</label>
-                <select id="tatuaje" name="tatuaje">
-                    <option value="">Selecciona una opción</option>
-                    <option value="si">Si</option>
-                    <option value="no">No</option>
-                </select>
-
-
+            <div class="sidebar-card sidebar-cta">
+                <h3 class="sidebar-title">Sígueme</h3>
+                <a href="https://www.instagram.com/tattooed_eyess/" target="_blank" rel="noopener noreferrer"
+                    class="btn-instagram" aria-label="Abrir Instagram @tattooed_eyess en nueva pestaña">
+                    @tattooed_eyess →
+                </a>
             </div>
 
-        </fieldset>
-        <fieldset class="alineacion">
-            <legend>Estilos Favoritos</legend>
-            <div>
-                <input type="checkbox" id="linea fina" name="tipo" value="linea fina">
-                <label for="linea fina">Linea Fina</label>
-            </div>
-            <div>
-                <input type="checkbox" id="tradicional" name="tipo" value="tradicional">
-                <label for="tradicional">Tradicional</label>
-            </div>
-            <div>
-                <input type="checkbox" id="anime" name="tipo" value="anime">
-                <label for="anime">Anime</label>
-            </div>
-            <button type="submit">Enviar formulario</button>
-        </fieldset>
+        </aside>
 
+    </div>
 
+    <footer role="contentinfo">
+        <p>© Tattooed Eyess Ink Studio · Naiara · Cáceres</p>
+        <a href="#home" class="top-link">↑ Volver arriba</a>
+    </footer>
 
+</body>
 
-
-
-    </form>
-    <a href="#home">Volver arriba</a>
-</body>​
-
-
-</html>​
+</html>
