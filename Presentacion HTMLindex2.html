@@ -1,43 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Tattooed Eyess Ink Studio - Naiara, tatuadora en Cáceres. Estilos: Fine Line, Anime, Blackwork y Neotradicional.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Tangerine:wght@400;700&display=swap"
-        rel="stylesheet">
+    <meta name="description" content="Tattooed Eyess Ink Studio - Naiara, tatuadora en Cáceres. Estilos: Fine Line, Anime, Blackwork y Neotradicional.">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cormorant+Garamond:wght@400;500&family=Tangerine:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Tattooed Eyess Ink Studio · Naiara · Tatuadora en Cáceres</title>
 </head>
 
 <body id="home">
 
-
     <a class="skip-link" href="#main">Saltar al contenido principal</a>
 
-    >
-    <header class="hero" role="banner">
-        <div class="hero-inner">
-            <p class="eyebrow" aria-hidden="true">— Ink Studio · Cáceres —</p>
-            <h1 class="studio-name">Tattooed Eyess<span>Ink Studio</span></h1>
+    <header class="hero">
+        <p class="eyebrow">— Ink Studio · Cáceres —</p>
+        <h1 class="studio-name">Tattooed Eyess <span>Ink Studio</span></h1>
 
-            <figure class="logo">
+        <figure class="logo">
+            <img src="logo tattooed eyess.jpeg" alt="Logo de Tattooed Eyess Ink Studio: un ojo tatuado con una rosa en el iris">
+        </figure>
 
-                <img src="logo tattooed eyess.jpeg"
-                    alt="Logo de Tattooed Eyess Ink Studio: un ojo tatuado con una rosa en el iris">
-            </figure>
-
-            <h2 class="artist-name">Naiara</h2>
-            <p class="tagline">Tatuadora · Fine Line · Anime · Blackwork · Neotradicional</p>
-        </div>
+        <h2 class="artist-name">Naiara</h2>
+        <p class="tagline">Tatuadora · Fine Line · Anime · Blackwork · Neotradicional</p>
     </header>
 
-    
     <nav class="main-nav" aria-label="Navegación principal">
         <ul>
             <li><a href="#sobre-mi">Sobre mí</a></li>
@@ -48,14 +35,13 @@
         </ul>
     </nav>
 
-
     <div class="layout">
 
-        <main id="main" role="main">
+        <main id="main">
 
-            <section id="sobre-mi" class="seccion" aria-labelledby="titulo-sobre-mi">
-                <h2 id="titulo-sobre-mi" class="section-title">Sobre mí</h2>
-                <div class="divider" aria-hidden="true"><span></span></div>
+            <section id="sobre-mi" class="seccion">
+                <h2 class="section-title">Sobre mí</h2>
+                <div class="divider"></div>
                 <p class="texto">
                     Mi nombre es Naiara, tengo <strong>25 años</strong> y soy de Cáceres.
                     Soy tatuadora, pero también me apasiona la informática. Mezclo lo
@@ -63,126 +49,103 @@
                 </p>
             </section>
 
-            <section id="informacion" class="seccion" aria-labelledby="titulo-info">
-                <h2 id="titulo-info" class="section-title">Información</h2>
-                <div class="divider" aria-hidden="true"><span></span></div>
+            <section id="informacion" class="seccion">
+                <h2 class="section-title">Información</h2>
+                <div class="divider"></div>
                 <p class="texto">
                     Desde hace casi 3 años trabajo en varios estilos. Estos son los que más me representan:
                 </p>
                 <ul class="estilos">
-                    <li><span aria-hidden="true">01</span><strong>Fine Line</strong><em>Líneas finas y delicadas</em>
-                    </li>
-                    <li><span aria-hidden="true">02</span><strong>Anime</strong><em>Personajes e ilustración
-                            japonesa</em></li>
-                    <li><span aria-hidden="true">03</span><strong>Blackwork</strong><em>Negro sólido y contrastes</em>
-                    </li>
-                    <li><span aria-hidden="true">04</span><strong>Neotradicional</strong><em>Colores vivos y contornos
-                            marcados</em></li>
+                    <li><span>01</span><strong>Fine Line</strong><em>Líneas finas y delicadas</em></li>
+                    <li><span>02</span><strong>Anime</strong><em>Personajes e ilustración japonesa</em></li>
+                    <li><span>03</span><strong>Blackwork</strong><em>Negro sólido y contrastes</em></li>
+                    <li><span>04</span><strong>Neotradicional</strong><em>Colores vivos y contornos marcados</em></li>
                 </ul>
             </section>
 
-            <!-- GALERÍA: reemplaza los src por las rutas de tus fotos (ej: trabajos/tattoo1.jpg) -->
-            <section id="galeria" class="seccion" aria-labelledby="titulo-galeria">
-                <h2 id="titulo-galeria" class="section-title">Galería</h2>
-                <div class="divider" aria-hidden="true"><span></span></div>
+            <section id="galeria" class="seccion">
+                <h2 class="section-title">Galería</h2>
+                <div class="divider"></div>
                 <p class="texto">Una selección de mis trabajos recientes.</p>
 
-                <ul class="galeria-grid" role="list">
+                <ul class="galeria-grid">
                     <li>
                         <figure>
-                            <img src="tattoo-goku.jpg"
-                                alt="Tatuaje blackwork de Goku Super Saiyan dentro de un marco triangular, situado en el antebrazo"
-                                loading="lazy">
+                            <img src="tattoo-goku.jpg" alt="Tatuaje blackwork de Goku Super Saiyan dentro de un marco triangular, situado en el antebrazo" loading="lazy">
                             <figcaption>Goku · Blackwork Anime</figcaption>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="tattoo-zelda.jpg"
-                                alt="Tatuaje fine line de la Princesa Zelda con la Trifuerza, flores y el hada Navi, en el brazo"
-                                loading="lazy">
+                            <img src="tattoo-zelda.jpg" alt="Tatuaje fine line de la Princesa Zelda con la Trifuerza, flores y el hada Navi, en el brazo" loading="lazy">
                             <figcaption>Zelda · Anime</figcaption>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="tattoo-peonias.jpg"
-                                alt="Tatuaje fine line de peonías y hojas distribuidas en la espalda, sobre el hombro y la zona lumbar"
-                                loading="lazy">
+                            <img src="tattoo-peonias.jpg" alt="Tatuaje fine line de peonías y hojas distribuidas en la espalda, sobre el hombro y la zona lumbar" loading="lazy">
                             <figcaption>Peonías · Fine Line</figcaption>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="tattoo-tigre.jpg"
-                                alt="Tatuaje blackwork de cabeza de tigre con alas de mariposa rugiendo, en la parte posterior de la pierna"
-                                loading="lazy">
+                            <img src="tattoo-tigre.jpg" alt="Tatuaje blackwork de cabeza de tigre con alas de mariposa rugiendo, en la parte posterior de la pierna" loading="lazy">
                             <figcaption>Tigre Mariposa · Blackwork</figcaption>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="tattoo-leopardo.jpg"
-                                alt="Tatuaje fine line de un leopardo agazapado en movimiento, situado en el omóplato"
-                                loading="lazy">
+                            <img src="tattoo-leopardo.jpg" alt="Tatuaje fine line de un leopardo agazapado en movimiento, situado en el omóplato" loading="lazy">
                             <figcaption>Leopardo · Fine Line</figcaption>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="tattoo-gato.jpg"
-                                alt="Tatuaje blackwork de un gato persa peludo tumbado dentro de un círculo con líneas estilo grabado, en el antebrazo"
-                                loading="lazy">
+                            <img src="tattoo-gato.jpg" alt="Tatuaje blackwork de un gato persa peludo tumbado dentro de un círculo con líneas estilo grabado, en el antebrazo" loading="lazy">
                             <figcaption>Gato · Blackwork</figcaption>
                         </figure>
                     </li>
                 </ul>
             </section>
 
-            <section id="contacto" class="seccion" aria-labelledby="titulo-contacto">
-                <h2 id="titulo-contacto" class="section-title">Contacto</h2>
-                <div class="divider" aria-hidden="true"><span></span></div>
+            <section id="contacto" class="seccion">
+                <h2 class="section-title">Contacto</h2>
+                <div class="divider"></div>
                 <ul class="contacto-list">
                     <li>
-                        <a href="mailto:naiaraprietob@gmail.com" aria-label="Enviar correo a naiaraprietob@gmail.com">
+                        <a href="mailto:naiaraprietob@gmail.com">
                             <span>Correo</span>naiaraprietob@gmail.com
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/tattooed_eyess/" target="_blank" rel="noopener noreferrer"
-                            aria-label="Visitar perfil de Instagram tattooed_eyess (se abre en nueva pestaña)">
+                        <a href="https://www.instagram.com/tattooed_eyess/" target="_blank" rel="noopener">
                             <span>Instagram</span>@tattooed_eyess
                         </a>
                     </li>
                 </ul>
             </section>
 
-            <form action="enviar" method="post" class="formulario" aria-labelledby="titulo-formulario" novalidate>
-                <h2 id="titulo-formulario" class="visually-hidden">Formulario de reserva</h2>
+            <form action="enviar" method="post" class="formulario">
 
                 <fieldset id="envia-tus-dudas">
                     <legend>Reserva tu cita</legend>
 
-                    <p class="aviso-obligatorio">Los campos marcados con <span aria-hidden="true">*</span> son
-                        obligatorios.</p>
+                    <p class="aviso-obligatorio">Los campos marcados con * son obligatorios.</p>
 
                     <div class="campo">
-                        <label for="nombre">Nombre completo <span class="req" aria-hidden="true">*</span></label>
-                        <input type="text" id="nombre" name="nombre" required autocomplete="name"
-                            placeholder="Ejemplo: María Ruiz" aria-required="true">
+                        <label for="nombre">Nombre completo *</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Ejemplo: María Ruiz">
                     </div>
 
                     <div class="campo">
-                        <label for="email">Correo electrónico <span class="req" aria-hidden="true">*</span></label>
-                        <input type="email" id="email" name="email" required autocomplete="email"
-                            placeholder="correo@dominio.es" aria-required="true" aria-describedby="email-help">
-                        <small id="email-help" class="ayuda">Te contestaré en menos de 48h.</small>
+                        <label for="email">Correo electrónico *</label>
+                        <input type="email" id="email" name="email" required placeholder="correo@dominio.es">
+                        <small class="ayuda">Te contestaré en menos de 48h.</small>
                     </div>
 
                     <div class="campo">
                         <label for="mensaje">Cuéntame tu idea</label>
-                        <textarea id="mensaje" name="mensaje" rows="5"
-                            placeholder="Estilo, tamaño aproximado, zona del cuerpo, referencias..."></textarea>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Estilo, tamaño aproximado, zona del cuerpo, referencias..."></textarea>
                     </div>
 
                     <div class="campo">
@@ -197,7 +160,7 @@
 
                 <fieldset class="estilos-favoritos">
                     <legend>Estilos favoritos</legend>
-                    <div class="checks" role="group" aria-label="Selecciona uno o varios estilos">
+                    <div class="checks">
                         <div>
                             <input type="checkbox" id="linea-fina" name="tipo" value="linea fina">
                             <label for="linea-fina">Línea fina</label>
@@ -221,7 +184,6 @@
 
         </main>
 
-
         <aside class="sidebar" aria-label="Información del estudio">
 
             <div class="sidebar-card">
@@ -236,8 +198,7 @@
             <div class="sidebar-card">
                 <h3 class="sidebar-title">Ubicación</h3>
                 <address>
-                    10195 Cáceres, Extremadura<br>
-
+                    10195 Cáceres, Extremadura
                 </address>
             </div>
 
@@ -248,8 +209,7 @@
 
             <div class="sidebar-card sidebar-cta">
                 <h3 class="sidebar-title">Sígueme</h3>
-                <a href="https://www.instagram.com/tattooed_eyess/" target="_blank" rel="noopener noreferrer"
-                    class="btn-instagram" aria-label="Abrir Instagram @tattooed_eyess en nueva pestaña">
+                <a href="https://www.instagram.com/tattooed_eyess/" target="_blank" rel="noopener" class="btn-instagram">
                     @tattooed_eyess →
                 </a>
             </div>
@@ -258,11 +218,10 @@
 
     </div>
 
-    <footer role="contentinfo">
+    <footer>
         <p>© Tattooed Eyess Ink Studio · Naiara · Cáceres</p>
         <a href="#home" class="top-link">↑ Volver arriba</a>
     </footer>
 
 </body>
-
 </html>
