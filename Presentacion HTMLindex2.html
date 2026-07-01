@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tattooed Eyess Ink Studio - Naiara, tatuadora en Cáceres. Estilos: Fine Line, Anime, Blackwork y Neotradicional.">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cormorant+Garamond:wght@400;500&family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <meta name="description"
+        content="Tattooed Eyess Ink Studio - Naiara, tatuadora en Cáceres. Estilos: Fine Line, Anime, Blackwork y Neotradicional.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cormorant+Garamond:wght@400;500&family=Tangerine:wght@700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Tattooed Eyess Ink Studio · Naiara · Tatuadora en Cáceres</title>
 </head>
@@ -18,7 +22,8 @@
         <h1 class="studio-name">Tattooed Eyess <span>Ink Studio</span></h1>
 
         <figure class="logo">
-            <img src="logo tattooed eyess.jpeg" alt="Logo de Tattooed Eyess Ink Studio: un ojo tatuado con una rosa en el iris">
+            <img src="logo tattooed eyess.jpeg"
+                alt="Logo de Tattooed Eyess Ink Studio: un ojo tatuado con una rosa en el iris">
         </figure>
 
         <h2 class="artist-name">Naiara</h2>
@@ -61,6 +66,10 @@
                     <li><span>03</span><strong>Blackwork</strong><em>Negro sólido y contrastes</em></li>
                     <li><span>04</span><strong>Neotradicional</strong><em>Colores vivos y contornos marcados</em></li>
                 </ul>
+
+
+                <p class="texto" style="margin-top:30px;"></p>
+                <ul id="lista-estilos-js" class="lista-js"></ul>
             </section>
 
             <section id="galeria" class="seccion">
@@ -71,37 +80,49 @@
                 <ul class="galeria-grid">
                     <li>
                         <figure>
-                            <img src="tattoo-goku.jpg" alt="Tatuaje blackwork de Goku Super Saiyan dentro de un marco triangular, situado en el antebrazo" loading="lazy">
+                            <img src="tattoo-goku.jpg"
+                                alt="Tatuaje blackwork de Goku Super Saiyan dentro de un marco triangular, situado en el antebrazo"
+                                loading="lazy">
                             <figcaption>Goku · Blackwork Anime</figcaption>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="tattoo-zelda.jpg" alt="Tatuaje fine line de la Princesa Zelda con la Trifuerza, flores y el hada Navi, en el brazo" loading="lazy">
+                            <img src="tattoo-zelda.jpg"
+                                alt="Tatuaje fine line de la Princesa Zelda con la Trifuerza, flores y el hada Navi, en el brazo"
+                                loading="lazy">
                             <figcaption>Zelda · Anime</figcaption>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="tattoo-peonias.jpg" alt="Tatuaje fine line de peonías y hojas distribuidas en la espalda, sobre el hombro y la zona lumbar" loading="lazy">
+                            <img src="tattoo-peonias.jpg"
+                                alt="Tatuaje fine line de peonías y hojas distribuidas en la espalda, sobre el hombro y la zona lumbar"
+                                loading="lazy">
                             <figcaption>Peonías · Fine Line</figcaption>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="tattoo-tigre.jpg" alt="Tatuaje blackwork de cabeza de tigre con alas de mariposa rugiendo, en la parte posterior de la pierna" loading="lazy">
+                            <img src="tattoo-tigre.jpg"
+                                alt="Tatuaje blackwork de cabeza de tigre con alas de mariposa rugiendo, en la parte posterior de la pierna"
+                                loading="lazy">
                             <figcaption>Tigre Mariposa · Blackwork</figcaption>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="tattoo-leopardo.jpg" alt="Tatuaje fine line de un leopardo agazapado en movimiento, situado en el omóplato" loading="lazy">
+                            <img src="tattoo-leopardo.jpg"
+                                alt="Tatuaje fine line de un leopardo agazapado en movimiento, situado en el omóplato"
+                                loading="lazy">
                             <figcaption>Leopardo · Fine Line</figcaption>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <img src="tattoo-gato.jpg" alt="Tatuaje blackwork de un gato persa peludo tumbado dentro de un círculo con líneas estilo grabado, en el antebrazo" loading="lazy">
+                            <img src="tattoo-gato.jpg"
+                                alt="Tatuaje blackwork de un gato persa peludo tumbado dentro de un círculo con líneas estilo grabado, en el antebrazo"
+                                loading="lazy">
                             <figcaption>Gato · Blackwork</figcaption>
                         </figure>
                     </li>
@@ -143,9 +164,26 @@
                         <small class="ayuda">Te contestaré en menos de 48h.</small>
                     </div>
 
+
+                    <div class="campo">
+                        <label for="edad">Edad *</label>
+                        <input type="number" id="edad" name="edad" min="18" max="120" placeholder="Ejemplo: 25">
+                        <small id="mensaje-edad" class="ayuda"></small>
+                    </div>
+
+
+                    <div class="campo">
+                        <label for="presupuesto">Presupuesto estimado (€ sin IVA)</label>
+                        <input type="number" id="presupuesto" name="presupuesto" min="0" placeholder="Ejemplo: 100">
+                        <small id="mensaje-precio" class="ayuda"></small>
+                    </div>
+
                     <div class="campo">
                         <label for="mensaje">Cuéntame tu idea</label>
-                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Estilo, tamaño aproximado, zona del cuerpo, referencias..."></textarea>
+                        <textarea id="mensaje" name="mensaje" rows="5"
+                            placeholder="Estilo, tamaño aproximado, zona del cuerpo, referencias..."></textarea>
+
+                        <small id="contador-caracteres" class="ayuda">0 caracteres</small>
                     </div>
 
                     <div class="campo">
@@ -178,7 +216,14 @@
                             <label for="blackwork">Blackwork</label>
                         </div>
                     </div>
+
+
+
+
                     <button type="submit">Enviar reserva</button>
+
+
+                    <p id="mensaje-reserva" class="mensaje-reserva"></p>
                 </fieldset>
             </form>
 
@@ -205,11 +250,14 @@
             <div class="sidebar-card">
                 <h3 class="sidebar-title">Próxima disponibilidad</h3>
                 <p class="disponibilidad"><strong>Julio 2026</strong><br>Reserva con antelación.</p>
+
+                <p id="cuenta-atras" class="disponibilidad"></p>
             </div>
 
             <div class="sidebar-card sidebar-cta">
                 <h3 class="sidebar-title">Sígueme</h3>
-                <a href="https://www.instagram.com/tattooed_eyess/" target="_blank" rel="noopener" class="btn-instagram">
+                <a href="https://www.instagram.com/tattooed_eyess/" target="_blank" rel="noopener"
+                    class="btn-instagram">
                     @tattooed_eyess →
                 </a>
             </div>
@@ -222,6 +270,8 @@
         <p>© Tattooed Eyess Ink Studio · Naiara · Cáceres</p>
         <a href="#home" class="top-link">↑ Volver arriba</a>
     </footer>
+
     <script src="js/main.js"></script>
 </body>
+
 </html>
